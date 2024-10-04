@@ -18,7 +18,7 @@ def test_division():
     '''Division function'''
     assert division(1,1)  == 1
 
-def test_division_by_ze_exception():
+def test_division_by_zero_exception():
     '''Division function testing that I get the exception divide by zero'''
     with pytest.raises(ZeroDivisionError):
         division(10,0)
